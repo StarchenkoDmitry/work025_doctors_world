@@ -23,8 +23,8 @@
     /* background-color: #8EA0AD; */
 }
 .content__inner {
-    padding: 0 1rem;
-    padding-bottom: 1rem;
+    padding: 0 2rem;
+    padding-bottom: 2em;
     background-color: white;
 }
 
@@ -71,14 +71,18 @@
     height: 48px;
     transform: translate(+50%,-50%);
     border-radius: 50%;
-    background-color: blue;
+    background-color: #01457A;
 
     cursor: pointer;
 }
 
-/* .block-info__checkbox:checked + .block-info__checkbox-flag{
-    background-color: rgb(151, 151, 223);
-} */
+.flag2 {
+    background-color: #BCD77E;
+}
+
+.block-info__checkbox:checked + .block-info__checkbox-flag{
+    filter: saturate(2);
+}
 
 
 .block-info__info {
@@ -86,12 +90,34 @@
 }
 
 
-/* .block-info__checkbox:checked + .fingerSVG{
-    color: aqua;
-    background-color: black;
-} */
+/* .bloo{
+    position: absolute;
+    width: 295px;
+    height: 114.5px;
+    left: 147px;
+    top: 40px;
 
-.block-info__checkbox:checked + .block-info__checkbox-flag{
-    color: aqua;
-    background-color: black;
+    background: linear-gradient(270deg, #D8EFFF 0%, #FFFFFF 100%);
+
+} */
+.bloo{
+    position: relative;
 }
+.bloo svg{
+    position: absolute;
+}
+/* position: absolute;
+width: 295px;
+height: 114.5px;
+left: 147px;
+top: 40px;
+
+background: linear-gradient(270deg, #D8EFFF 0%, #FFFFFF 100%); */
+
+
+/* position: absolute;
+width: 295px;
+height: 113.5px;
+left: 147px;
+top: 40px; */
+
