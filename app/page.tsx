@@ -1,7 +1,9 @@
 import Image from "next/image";
 import "./page.css";
-import SVG1 from "../components/SVG1";
+import BackgroundSVG from "../components/BackgroundSVG";
 import UserSvg from "../components/UserSvg";
+import BlockFingerSVG from "../components/BlockFingerSVG";
+import FingerSVG from "../components/FingerSVG";
 
 export default function Home() {
   return (
@@ -9,13 +11,14 @@ export default function Home() {
       <div className="main-wrapper">
 
         <div className="content">
-          <SVG1/>
 
           <div className="content__inner">
+
+            <BackgroundSVG/> 
+
             <h2 className="content__title">
               ХОБЛ: мифы и реальность
             </h2>
-
 
             <div className="block-info">
               <input 
@@ -26,8 +29,11 @@ export default function Home() {
               <label 
                 className="block-info__checkbox-flag" 
                 htmlFor="block-info__checkbox1"
-              />
-
+              >
+                <FingerSVG className=""/>
+              </label>
+              
+              
               <div className="block-info__info">
                 <UserSvg/>
                 <span>ХОБЛ болеют преимущественно мужчины?</span>
@@ -64,7 +70,7 @@ export default function Home() {
         </div>
         
         <div className="content">
-          <SVG1/>
+          <BackgroundSVG/>
 
           <div className="content__inner">
             <h2 className="title _static _z-10">

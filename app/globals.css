@@ -4,12 +4,27 @@
 
 
 /* for SVG1 component*/
-.svg1{
+.svg1222{
     position: absolute;
     left: 0;
     top: 0;
     z-index: 0;
 
+    /* width="1335" height="110" */
+
+    width: 80%;
+}
+
+.svg1{
+    display: block;
+    /* position: absolute; */
+    /* left: 0;
+    top: 0; */
+    /* z-index: 0; */
+
+    position: absolute;
+    left: 0;
+    /* top: 0; */
     /* width="1335" height="110" */
 
     width: 80%;
