@@ -27,6 +27,23 @@
     padding: 0 2rem;
     padding-bottom: 2em;
     background-color: white;
+
+
+    
+    position: relative;
+    /* width:200px; */
+    /* height:200px; */
+    /* content: url(/test2.svg); */
+    /* background-image: url(/vec49.svg) no-repeat, url(/vec50.svg); */
+    /* background-image: url(/test2.svg); */
+    /* background: url(/vec49.svg) no-repeat, url(/vec50.svg) no-repeat; */
+    background: url(/vec48.svg) no-repeat;
+    /* background-position: right bottom, left top; */
+    
+    background-position: top right;
+    background-size: 80%;
+
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -122,3 +139,19 @@ height: 113.5px;
 left: 147px;
 top: 40px; */
 
+
+.block-info__hidener{
+    /* display: none; */
+
+    /* height: 0; */
+    max-height: 0;
+    background-color: ghostwhite;
+    transition: all .5s;
+}
+#block-info__checkbox1:checked ~ .block-info__hidener{
+    /* display: block; */
+    /* height: 200px; */
+    /* height: max-content; */
+    max-height: 1000px;
+    
+}

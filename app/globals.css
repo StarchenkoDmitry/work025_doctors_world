@@ -24,3 +24,38 @@
 
     z-index: -1;
 }
+
+
+/* .testbg{
+    position: relative;
+    width:200px;
+    height:200px;
+    font-size: 2rem;
+    content: url(/test2.svg);
+
+    background-image: url(/test2.svg);
+}
+
+.testbg img{
+    position: absolute;
+    top: 0;
+} */
+
+
+.testbg{
+    position: relative;
+    width:200px;
+    height:200px;
+    font-size: 2rem;
+    /* content: url(/test2.svg); */
+
+    /* background-image: url(/vec49.svg), url(/vec50.svg); */
+}
+
+
+.testtext{
+    font-size: 2rem;
+    /* position: relative; */
+    /* transform: translate(0,+35px); */
+    transform: scaleY(4);
+}
