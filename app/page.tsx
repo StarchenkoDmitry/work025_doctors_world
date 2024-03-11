@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <main className="main">
       <HeaderSVG/>
-
       <div className="main-wrapper">
 
         <div className="content">
@@ -80,19 +79,14 @@ export default function Home() {
         
         <div className="content">
           <BackgroundSVG/>
-
           <div className="content__inner">
             <h2 className="title _static _z-10">
               next blokc
             </h2>
-          </div>
-          
+          </div>          
         </div>
-      </div>
 
-      {/* <div className="bg-orange-300">
-        next wrapper
-      </div> */}
+      </div>
     </main>
   );
 }
