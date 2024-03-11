@@ -30,25 +30,23 @@ export default function Home() {
             >
               <FingerSVG/>
             </label>
-
-
-            {/* <div className="block-info__hidener">
-              <span>This is hidden text</span>
-            </div> */}
             
             
             <div className="block-info__info">
               <UserSvg/>
-              <span>ХОБЛ болеют преимущественно мужчины?</span>
-              <div className="bloo">
-                <span>34234ХОБЛ болеют преимущественно мужчины?</span>
-
+              <div className="block-info__block">
+                <img className="bg_vec49" src="vec50.svg" alt="" />
+                <img className="bg_vec49" src="vec49.svg" alt="" />
+                <span>
+                  ХОБЛ болеют 
+                  <span className="bolt"> преимущественно мужчины?</span>
+                </span>
               </div>
             </div>
 
-            <div className="block-info__text">
-              <p>В десятилетнем исследовании «Генетическая эпидемиология ХОБЛ» (COPDGene) среди пациентов с ХОБЛ, диагностированной до 55 лет, было выявлено преобладание</p>
-            </div>
+
+            <p className="block-info__text">В десятилетнем исследовании «Генетическая эпидемиология ХОБЛ» (COPDGene) среди пациентов с ХОБЛ, диагностированной до 55 лет, было выявлено преобладание</p>
+            
           </div>
 
 

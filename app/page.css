@@ -76,7 +76,11 @@
 
 .block-info {
     position: relative;
-    
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 2rem;
     padding: 1rem;
 
     border: #1789e0 solid 2px;
@@ -122,7 +126,55 @@
 
 
 .block-info__info {
+    display: flex;
+    /* height: 70px; */
+}
+.block-info__block{
+    position: relative;
+    width: 297px;
+    height: 116px;
+    padding: 1rem;
+}
+.block-info__block > span{
+    position: relative;
+    /* display: block; */
+    /* height: 40px; */
+    line-height: 1;
+    font-size: 24px;
+    color: #01457A;
+    width: 400px;
 
+}
+.bolt{
+    font-weight: 700;
+}
+/* width="297" height="116" */
+.bg_vec49{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.block-info__text{
+    font-size: 24px;
+    color: #01457A;
+    
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 0)
+    );
+
+    mask-image: linear-gradient(
+        to top,
+        rgb(50,50,50,.5) 10%,
+        transparent calc(100% - 5rem),
+        white
+    );
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
 }
 
 
@@ -142,52 +194,5 @@
 .bloo svg{
     position: absolute;
 }
-/* position: absolute;
-width: 295px;
-height: 114.5px;
-left: 147px;
-top: 40px;
 
-background: linear-gradient(270deg, #D8EFFF 0%, #FFFFFF 100%); */
-
-
-/* position: absolute;
-width: 295px;
-height: 113.5px;
-left: 147px;
-top: 40px; */
-
-
-.block-info__hidener{
-    /* display: none; */
-
-    /* height: 0; */
-    /* max-height: 0;
-    background-color: ghostwhite;
-    transition: all .5s; */
-}
-#block-info__checkbox1:checked ~ .block-info__hidener{
-    /* display: block; */
-    /* height: 200px; */
-    /* height: max-content; */
-    /* max-height: 1000px; */
-    
-}
-
-
-.block-info__hidener{
-    /* display: none; */
-
-    /* height: 0; */
-    background-color: ghostwhite;
-    transition: all .5s;
-}
-#block-info__checkbox1:checked ~ .block-info__hidener{
-    /* display: block; */
-
-    height: 0;
-    /* height: 200px; */
-    /* height: max-content; */
-    /* max-height: 1000px; */
-    
-}
+/* background: linear-gradient(270deg, #D8EFFF 0%, #FFFFFF 100%); */

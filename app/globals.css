@@ -86,3 +86,9 @@
     min-width: 1335px;
     height: 110px;
 }
+
+.user_svg {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
