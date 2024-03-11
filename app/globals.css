@@ -70,3 +70,19 @@
     /* transform: translate(0,+35px); */
     transform: scaleY(4);
 }
+
+
+
+    /* width="1335" height="110" */
+.bg_svg{
+    /* position: absolute;
+    left: 0;
+    top: 0;
+    width: 90%; */
+    position: absolute;
+    right: +10%;
+    top: 0;
+    width: 1335px;
+    min-width: 1335px;
+    height: 110px;
+}

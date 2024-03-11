@@ -13,78 +13,80 @@ export default function Home() {
       <div className="main-wrapper">
 
         <div className="content">
-          <div className="content__inner">
+          <img className="bg_svg" src="vec48.svg" alt="" />
+          <h2 className="content__title">ХОБЛ: мифы и реальность</h2>
 
 
-            <h2 className="content__title">ХОБЛ: мифы и реальность</h2>
 
-            <div className="block-info">
-              <input 
-                className="block-info__checkbox"
-                type="checkbox"
-                id="block-info__checkbox1"
-              />
-              <label 
-                className="block-info__checkbox-flag" 
-                htmlFor="block-info__checkbox1"
-              >
-                <FingerSVG/>
-              </label>
+          <div className="block-info">
+            <input 
+              className="block-info__checkbox"
+              type="checkbox"
+              id="block-info__checkbox1"
+            />
+            <label 
+              className="block-info__checkbox-flag" 
+              htmlFor="block-info__checkbox1"
+            >
+              <FingerSVG/>
+            </label>
 
-              <div className="block-info__hidener">
-                <span>This is hidden text</span>
-              </div>
-              
-              
-              <div className="block-info__info">
-                <UserSvg/>
-                <span>ХОБЛ болеют преимущественно мужчины?</span>
-                <div className="bloo">
-                  <span>34234ХОБЛ болеют преимущественно мужчины?</span>
 
-                </div>
-              </div>
+            {/* <div className="block-info__hidener">
+              <span>This is hidden text</span>
+            </div> */}
+            
+            
+            <div className="block-info__info">
+              <UserSvg/>
+              <span>ХОБЛ болеют преимущественно мужчины?</span>
+              <div className="bloo">
+                <span>34234ХОБЛ болеют преимущественно мужчины?</span>
 
-              <div className="block-info__text">
-                <p>В десятилетнем исследовании «Генетическая эпидемиология ХОБЛ» (COPDGene) среди пациентов с ХОБЛ, диагностированной до 55 лет, было выявлено преобладание</p>
               </div>
             </div>
 
-            <div className="block-info">
-              <input 
-                className="block-info__checkbox"
-                type="checkbox"
-                id="block-info__checkbox2"
-              />
-              <label 
-                className="block-info__checkbox-flag flag2" 
-                htmlFor="block-info__checkbox2"
-              >
-                <FingerSVG/>
-              </label>
-
-              <div className="block-info__info">
-                <span>ХОБЛ болеют преимущественно мужчины?</span>
-              </div>
-
-              <div className="block-info__text">
-                <p>В десятилетнем исследовании «Генетическая эпидемиология ХОБЛ» (COPDGene) среди пациентов с ХОБЛ, диагностированной до 55 лет, было выявлено преобладание</p>
-              </div>
+            <div className="block-info__text">
+              <p>В десятилетнем исследовании «Генетическая эпидемиология ХОБЛ» (COPDGene) среди пациентов с ХОБЛ, диагностированной до 55 лет, было выявлено преобладание</p>
             </div>
-
-
           </div>
 
+
+
+
+          <div className="block-info">
+            <input 
+              className="block-info__checkbox"
+              type="checkbox"
+              id="block-info__checkbox2"
+            />
+            <label 
+              className="block-info__checkbox-flag flag2" 
+              htmlFor="block-info__checkbox2"
+            >
+              <FingerSVG/>
+            </label>
+
+            <div className="block-info__info">
+              <span>ХОБЛ болеют преимущественно мужчины?</span>
+            </div>
+
+            <div className="block-info__text">
+              <p>В десятилетнем исследовании «Генетическая эпидемиология ХОБЛ» (COPDGene) среди пациентов с ХОБЛ, диагностированной до 55 лет, было выявлено преобладание</p>
+            </div>
+          </div>
         </div>
         
+
+
         <div className="content">
-          <BackgroundSVG/>
-          <div className="content__inner">
-            <h2 className="title _static _z-10">
-              next blokc
-            </h2>
-          </div>          
+          {/* <BackgroundSVG/> */}
+          <img className="bg_svg" src="vec48.svg" alt="" />
+          <h2 className="content__title">
+            Терапия ХОБЛ: что в фокусе?
+          </h2>
         </div>
+
 
       </div>
     </main>
