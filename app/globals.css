@@ -12,3 +12,15 @@
 
     width: 90%;
 }
+
+.main-svg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+
+    z-index: -1;
+}

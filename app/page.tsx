@@ -4,17 +4,33 @@ import BackgroundSVG from "../components/BackgroundSVG";
 import UserSvg from "../components/UserSvg";
 import BlockFingerSVG from "../components/BlockFingerSVG";
 import FingerSVG from "../components/FingerSVG";
+import HeaderSVG from "../components/HeaderSVG";
 
 export default function Home() {
   return (
     <main className="main">
+
+      <HeaderSVG/>
+
       <div className="main-wrapper">
 
         <div className="content">
 
           <div className="content__inner">
 
-            <BackgroundSVG/> 
+            {/* <BackgroundSVG/>  */}
+            {/* <img
+              src="test.svg"
+              className="border-fuchsia-700"
+              alt=""
+              height={100}
+              width={100}
+            /> */}
+            <div style={{
+              backgroundImage: "url('test.svg')"
+            }}>
+              dfgfdgf
+            </div>
 
             <h2 className="content__title">
               ХОБЛ: мифы и реальность
@@ -40,7 +56,7 @@ export default function Home() {
                 <div className="bloo">
                   <span>ХОБЛ болеют преимущественно мужчины?</span>
 
-                  <svg width="297" height="116" viewBox="0 0 297 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  {/* <svg width="297" height="116" viewBox="0 0 297 116" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M254.139 115.5H0V1H254.139L295 50.8145L254.139 115.5Z" fill="url(#paint0_linear_0_1)"/>
                     <path d="M0 114.5H254.139L295 50.5L254.139 1" stroke="url(#paint1_linear_0_1)" stroke-width="3"/>
                     <defs>
@@ -55,7 +71,7 @@ export default function Home() {
                         <stop offset="1" stop-color="#BCD77E" stop-opacity="0"/>
                       </linearGradient>
                     </defs>
-                  </svg>
+                  </svg> */}
 
                 </div>
               </div>
@@ -104,9 +120,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-orange-300">
+      {/* <div className="bg-orange-300">
         next wrapper
-      </div>
+      </div> */}
     </main>
   );
 }
