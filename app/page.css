@@ -1,5 +1,5 @@
 .main {
-    position: relative;
+    /* position: relative; */
 }
 
 .main-wrapper {
@@ -144,14 +144,32 @@ top: 40px; */
     /* display: none; */
 
     /* height: 0; */
-    max-height: 0;
+    /* max-height: 0;
     background-color: ghostwhite;
-    transition: all .5s;
+    transition: all .5s; */
 }
 #block-info__checkbox1:checked ~ .block-info__hidener{
     /* display: block; */
     /* height: 200px; */
     /* height: max-content; */
-    max-height: 1000px;
+    /* max-height: 1000px; */
+    
+}
+
+
+.block-info__hidener{
+    /* display: none; */
+
+    /* height: 0; */
+    background-color: ghostwhite;
+    transition: all .5s;
+}
+#block-info__checkbox1:checked ~ .block-info__hidener{
+    /* display: block; */
+
+    height: 0;
+    /* height: 200px; */
+    /* height: max-content; */
+    /* max-height: 1000px; */
     
 }

@@ -13,7 +13,7 @@
     width: 90%;
 }
 
-.main-svg{
+/* .main-svg{
     position: fixed;
     left: 0;
     top: 0;
@@ -23,8 +23,19 @@
     align-items: center;
 
     z-index: -1;
-}
+} */
+.main-svg {
+    position: fixed;
+    /* left: 0; */
+    top: 0;
+    right: +10%;
+    /* left: 0; */
+    width: 1657px;
+    height: 78px;
+    /* width="1657" height="78"  */
 
+    z-index: -1;
+}
 
 /* .testbg{
     position: relative;

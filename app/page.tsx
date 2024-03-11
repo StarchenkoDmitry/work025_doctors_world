@@ -9,19 +9,15 @@ import HeaderSVG from "../components/HeaderSVG";
 export default function Home() {
   return (
     <main className="main">
-
       <HeaderSVG/>
 
       <div className="main-wrapper">
 
         <div className="content">
-
           <div className="content__inner">
 
 
-            <h2 className="content__title">
-              ХОБЛ: мифы и реальность
-            </h2>
+            <h2 className="content__title">ХОБЛ: мифы и реальность</h2>
 
             <div className="block-info">
               <input 
@@ -45,7 +41,7 @@ export default function Home() {
                 <UserSvg/>
                 <span>ХОБЛ болеют преимущественно мужчины?</span>
                 <div className="bloo">
-                  <span>ХОБЛ болеют преимущественно мужчины?</span>
+                  <span>34234ХОБЛ болеют преимущественно мужчины?</span>
 
                 </div>
               </div>
