@@ -150,17 +150,26 @@
     font-weight: 600;
     color: #01457A;
 }
-.block-info__item span{
+.block-info__item .first-text{
     display: inline-block;
+    /* font-size: 1.5rem; */
     font-size: 1.5rem;
     /* font-weight: 600; */
     color: #01457A;
 
     text-align: center;
 }
-
 .block-info__item .second-text{
     font-size: 1rem;
+}
+.block-info__item .first-text2{
+    /* display: inline-block; */
+    /* font-size: 1.5rem; */
+    font-size: 1.5rem;
+    /* font-weight: 600; */
+    color: #71bffa;
+
+    text-align: center;
 }
 
 

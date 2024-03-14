@@ -91,20 +91,35 @@ export default function Home() {
               <h2 className="block-info__view__title">Пятилетняя выживаемость пациентов</h2>
               
               <div className="block-info__list">
+
                 <div className="block-info__item">
                   <img src="img1.svg" alt="" />
                   <h3 className="">45,5%</h3>
-                  <span>пациентов с сердечной недостаточностью1</span>
+                  <span className="first-text">пациентов с сердечной недостаточностью1</span>
                   <span className="second-text">Популяционное когортное исследование (N=385)</span>
                 </div>
+
                 <div className="block-info__item">
-                  <img src="img2.svg" alt="" />
-                  dftghdftgy hrtyj  rtyj rtyj rty jrty 
+
+                  <img src="img1.svg" alt="" />
+                  <h3 className="">45,5%</h3>
+                  <span className="first-text">пациентов с сердечной недостаточностью1</span>
+                  <div>
+                    <p className="first-text2">пациен тов с серде чной недоста точн остью1</p>
+                  
+                  </div>
+                  <span className="second-text">Популяционное когортное исследование (N=385)</span>
+                
+
+                  {/* <img src="img2.svg" alt="" /> */}
+                  {/* dftghdftgy hrtyj  rtyj rtyj rty jrty  */}
                 </div>
+
                 <div className="block-info__item">
                   <img src="img3.svg" alt="" />
                   thrdtfyh rtyj rtyj rtyj 
                 </div>
+
               </div>
             </div>
             
